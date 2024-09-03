@@ -57,7 +57,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
+            "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
         },
@@ -76,6 +76,7 @@
         },
         "custom_liquid_qa3tFG": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div style=\"display:flex;flex-wrap: wrap;\">\n              {%- for type in shop.enabled_payment_types -%}\n                <div class=\"list-payment__item\">\n                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}\n                <\/div>\n              {%- endfor -%}\n            <\/div>"
           }
