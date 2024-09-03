@@ -1,0 +1,103 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 20,
+        "columns_desktop": 5,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_nMm3UE": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_a9PXaL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bavaria"
+          }
+        },
+        "featured_collection_pLEGLU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "brewdog"
+          }
+        },
+        "featured_collection_ti3jzN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "clausthaler"
+          }
+        },
+        "featured_collection_xpXmU8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cobra"
+          }
+        },
+        "featured_collection_pN3mLC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kopparberg"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_a9PXaL",
+        "featured_collection_pLEGLU",
+        "featured_collection_ti3jzN",
+        "featured_collection_xpXmU8",
+        "featured_collection_pN3mLC"
+      ],
+      "custom_css": [
+        ".card {border-radius: 1.5rem;}"
+      ],
+      "settings": {
+        "title": "Other brands",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "scheme-18707b17-8a1d-4b27-8a2a-410d8828aa85",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "collection_list_nMm3UE"
+  ]
+}
