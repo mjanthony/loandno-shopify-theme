@@ -49,9 +49,9 @@
         "inventory_eNqqRq": {
           "type": "inventory",
           "settings": {
-            "text_style": "uppercase",
-            "inventory_threshold": 0,
-            "show_inventory_quantity": false
+            "text_style": "body",
+            "inventory_threshold": 3,
+            "show_inventory_quantity": true
           }
         },
         "buy_buttons": {
