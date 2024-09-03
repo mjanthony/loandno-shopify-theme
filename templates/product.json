@@ -74,6 +74,12 @@
             "enable_quick_add": true
           }
         },
+        "custom_liquid_qa3tFG": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"display:flex;flex-wrap: wrap;\">\n              {%- for type in shop.enabled_payment_types -%}\n                <div class=\"list-payment__item\">\n                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}\n                <\/div>\n              {%- endfor -%}\n            <\/div>"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -91,6 +97,7 @@
         "inventory_eNqqRq",
         "buy_buttons",
         "complementary_pTBAXN",
+        "custom_liquid_qa3tFG",
         "share"
       ],
       "settings": {
