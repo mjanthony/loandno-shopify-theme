@@ -213,7 +213,7 @@
                 {% if product.metafields.custom.awards %}
                   {% for award in product.metafields.custom.awards.value %}
                     <div class="product-image-item">
-                      <img src="{{ award | asset_url }}.png" alt="{{ award }}" loading="lazy">
+                      <img src="{{ award | append: '.png' | asset_url }}" alt="{{ award }}" loading="lazy">
                     </div>
                   {% endfor %}
                 {% endif %}
