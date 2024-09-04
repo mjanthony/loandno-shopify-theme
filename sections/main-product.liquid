@@ -211,12 +211,10 @@
                 {{ block.settings.custom_liquid }}
               {%- when 'awards' -%}
                 {% if product.metafields.custom.awards %}
-                  <pre>{{ product.metafields.custom.awards }}</pre>
                   {% for award in product.metafields.custom.awards.value %}
                     <div class="product-image-item">
-                      <div>{{ award }}</div>
-                        {% comment %}<img src="{{ image_url }}" alt="Product image" loading="lazy">{% endcomment %}
-                      </div>
+                      <img src="{{ award | asset_url }}.png" alt="{{ award }}" loading="lazy">
+                    </div>
                   {% endfor %}
                 {% endif %}
               {%- when 'collapsible_tab' -%}
