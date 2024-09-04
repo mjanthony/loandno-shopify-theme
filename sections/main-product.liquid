@@ -211,11 +211,13 @@
                 {{ block.settings.custom_liquid }}
               {%- when 'awards' -%}
                 {% if product.metafields.custom.awards %}
-                  {% for award in product.metafields.custom.awards.value %}
-                    <div class="product-image-item">
-                      <img src="{{ award | append: '.png' | asset_url }}" alt="{{ award }}" loading="lazy">
-                    </div>
-                  {% endfor %}
+                  <div class="product-award">
+                    {% for award in product.metafields.custom.awards.value %}
+                      <div class="product-award-image">
+                        <img src="{{ award | append: '.png' | asset_url }}" alt="{{ award }}" loading="lazy">
+                      </div>
+                    {% endfor %}
+                  </div>
                 {% endif %}
               {%- when 'collapsible_tab' -%}
                 <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>

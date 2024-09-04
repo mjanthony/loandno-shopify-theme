@@ -1492,3 +1492,16 @@ a.product__text {
     border: none;
   }
 }
+
+
+.product-award {
+  display: flex;
+}
+
+.product-award-image {
+  max-width: 12rem;
+}
+
+.product-award-image img {
+  width: 100%;
+}
