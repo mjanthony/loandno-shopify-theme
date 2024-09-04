@@ -86,6 +86,20 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "awards_3bWnJK": {
+          "type": "awards",
+          "settings": {
+          }
+        },
+        "collapsible_tab_gqciip": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Awards",
+            "icon": "lightning_bolt",
+            "content": "{{ product.metafields.custom.awards | metafield_tag }}",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -99,7 +113,9 @@
         "buy_buttons",
         "complementary_pTBAXN",
         "custom_liquid_qa3tFG",
-        "share"
+        "share",
+        "awards_3bWnJK",
+        "collapsible_tab_gqciip"
       ],
       "settings": {
         "enable_sticky_info": true,
