@@ -209,6 +209,16 @@
                 </p>
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
+              {%- when 'awards' -%}
+                {% if product.metafields.custom.awards %}
+                  <pre>{{ product.metafields.custom.awards }}</pre>
+                  {% for award in product.metafields.custom.awards.value %}
+                    <div class="product-image-item">
+                      <div>{{ award }}</div>
+                        {% comment %}<img src="{{ image_url }}" alt="Product image" loading="lazy">{% endcomment %}
+                      </div>
+                  {% endfor %}
+                {% endif %}
               {%- when 'collapsible_tab' -%}
                 <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                   <details id="Details-{{ block.id }}-{{ section.id }}">
@@ -2077,7 +2087,7 @@
     },
     {
       "type": "awards",
-      "name": "t:sections.main-product.blocks.awards.name",
+      "name": "Awards",
       "limit": 1
     }
   ],
