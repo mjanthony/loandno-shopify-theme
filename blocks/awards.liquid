@@ -1,0 +1,27 @@
+{% comment %}
+  This section will render images stored in the custom metafield 'custom.images'.
+  Ensure that your product has this metafield set with valid image URLs.
+{% endcomment %}
+
+{% if product.metafields.custom.awards %}
+    <div class="product-images-gallery">
+        {% for award in product.metafields.custom.awards.value %}
+            <div class="product-image-item">
+                <div>{{ award }}</div>
+                {% comment %}<img src="{{ image_url }}" alt="Product image" loading="lazy">{% endcomment %}
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Awards",
+  "presets": [
+    {
+      "name": "Awards",
+      "category": "Product"
+    }
+  ]
+}
+{% endschema %}
