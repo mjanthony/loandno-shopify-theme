@@ -1493,15 +1493,6 @@ a.product__text {
   }
 }
 
-
 .product-award {
   display: flex;
-}
-
-.product-award-image {
-  max-width: 12rem;
-}
-
-.product-award-image img {
-  width: 100%;
 }
