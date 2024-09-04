@@ -5,6 +5,7 @@
 
 {% if product.metafields.custom.awards %}
     <div class="product-images-gallery">
+        <pre>{{ block.settings.content }}</pre>
         {% for award in product.metafields.custom.awards.value %}
             <div class="product-image-item">
                 <div>{{ award }}</div>

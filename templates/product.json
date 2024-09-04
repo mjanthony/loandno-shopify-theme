@@ -90,17 +90,10 @@
         "awards_3bWnJK": {
           "type": "awards",
           "settings": {
+            "heading": "Awards",
+            "content": "{{ product.metafields.custom.awards | metafield_tag }}"
           }
         },
-        "collapsible_tab_gqciip": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Awards",
-            "icon": "lightning_bolt",
-            "content": "{{ product.metafields.custom.awards | metafield_tag }}",
-            "page": ""
-          }
-        }
       },
       "block_order": [
         "vendor",
