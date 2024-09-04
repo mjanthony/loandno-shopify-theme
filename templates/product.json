@@ -24,6 +24,11 @@
           "settings": {
           }
         },
+        "awards_3bWnJK": {
+          "type": "awards",
+          "settings": {
+          }
+        },
         "judge_me_reviews_preview_badge_3WG8C3": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -86,18 +91,12 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "awards_3bWnJK": {
-          "type": "awards",
-          "settings": {
-            "heading": "Awards",
-            "content": "{{ product.metafields.custom.awards | metafield_tag }}"
-          }
-        },
+        }
       },
       "block_order": [
         "vendor",
         "title",
+        "awards_3bWnJK",
         "judge_me_reviews_preview_badge_3WG8C3",
         "price",
         "variant_picker",
@@ -106,9 +105,7 @@
         "buy_buttons",
         "complementary_pTBAXN",
         "custom_liquid_qa3tFG",
-        "share",
-        "awards_3bWnJK",
-        "collapsible_tab_gqciip"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
