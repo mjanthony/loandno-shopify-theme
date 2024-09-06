@@ -132,112 +132,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "featured_product_9Kz8Vt": {
-      "type": "featured-product",
-      "blocks": {
-        "title_nq8cJn": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h2"
-          }
-        },
-        "price_WDc8H4": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker_xdBP4f": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_CRcygY": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons_mhAJKt": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        }
-      },
-      "block_order": [
-        "title_nq8cJn",
-        "price_WDc8H4",
-        "variant_picker_xdBP4f",
-        "quantity_selector_CRcygY",
-        "buy_buttons_mhAJKt"
-      ],
-      "settings": {
-        "product": "lo-no-gift-card",
-        "color_scheme": "scheme-18707b17-8a1d-4b27-8a2a-410d8828aa85",
-        "secondary_background": false,
-        "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_GchHTH": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_GqYE4X": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our Story",
-            "heading_size": "h1"
-          }
-        },
-        "text_MeUGcH": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At LO & NO, we believe that a fulfilling life doesn't have to revolve around alcohol. Our mission is to provide you with a curated selection of exceptional alcohol-free and low alcohol beverages that taste great and align with a healthier, more mindful lifestyle.<\/p>"
-          }
-        },
-        "button_gPjtVh": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/pages\/our-story",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "shopify:\/\/pages\/our-story",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_GqYE4X",
-        "text_MeUGcH",
-        "button_gPjtVh"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection_YTJEHG",
     "featured_collection_jzM9iB",
-    "featured_collection_bHAbzB",
-    "featured_product_9Kz8Vt",
-    "rich_text_GchHTH"
+    "featured_collection_bHAbzB"
   ]
 }
