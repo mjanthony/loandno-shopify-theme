@@ -17,15 +17,8 @@
         "link_list_RGKrgq": {
           "type": "link_list",
           "settings": {
-            "heading": "Orders",
+            "heading": "About us",
             "menu": "footer-orders"
-          }
-        },
-        "link_list_VdXfCW": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Website",
-            "menu": "footer-website"
           }
         },
         "link_list_GFYRdC": {
@@ -33,6 +26,13 @@
           "settings": {
             "heading": "Contact us",
             "menu": "footer-contact-us"
+          }
+        },
+        "link_list_VdXfCW": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Policies",
+            "menu": "footer-website"
           }
         },
         "image_qpyRD4": {
@@ -46,8 +46,8 @@
       },
       "block_order": [
         "link_list_RGKrgq",
-        "link_list_VdXfCW",
         "link_list_GFYRdC",
+        "link_list_VdXfCW",
         "image_qpyRD4"
       ],
       "custom_css": [
