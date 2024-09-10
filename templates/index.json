@@ -9,44 +9,78 @@
 */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "slideshow_qMteix": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "slide_TAt8YQ": {
+          "type": "slide",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/05_Can_Poured_In_Glass_087_16x9_cd26d1fa-9061-49e5-a624-01af788bf520.jpg",
+            "heading": "Guinness 0.0",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/products\/guinness-draught-0-0-alcohol-free-stout",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "button": {
-          "type": "buttons",
+        "slide_7cibTV": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Shop now",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/Corona_Cero_la_Birra_corona_zero_Alcol.jpg",
+            "heading": "Corona Cero",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/products\/corona-cero-0-0-alcohol-free-lager",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_xPQHBm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WAFA24_background.jpg",
+            "heading": "Award Winners",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/award-winning",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "slide_TAt8YQ",
+        "slide_7cibTV",
+        "slide_xPQHBm"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/summer-friends-cheers.jpg",
-        "image_overlay_opacity": 50,
-        "image_height": "medium",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "featured_collection_YTJEHG": {
@@ -135,7 +169,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "slideshow_qMteix",
     "featured_collection_YTJEHG",
     "featured_collection_jzM9iB",
     "featured_collection_bHAbzB"
