@@ -56,27 +56,27 @@
           "settings": {
             "text_style": "body",
             "inventory_threshold": 3,
-            "show_inventory_quantity": true
+            "show_inventory_quantity": false
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
         },
         "complementary_pTBAXN": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Pairs well with",
+            "block_heading": "Why not try the range",
             "make_collapsible_row": false,
             "icon": "price_tag",
             "product_list_limit": 10,
             "products_per_page": 3,
             "pagination_style": "counter",
             "image_ratio": "square",
-            "enable_quick_add": true
+            "enable_quick_add": false
           }
         },
         "custom_liquid_qa3tFG": {
